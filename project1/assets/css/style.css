@@ -1,0 +1,61 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+    height: 10000px;
+}
+/*Start Navbar*/
+.navbar-brand img{
+    height: 78px;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+/*End Navbar*/
+/*Start Intro Section*/
+
+img{
+    max-width:100%; 
+}
+.intro-side-left{
+    background-image: url('../imgs/header-side.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.intro h1{  
+    font-weight: 600;
+    margin-top:130px;   
+}
+/*End Intro Section*/
+/*Start About Section*/
+.about-us{
+    margin-top: 80px;
+    
+}
+.about-us h1{
+    text-align: center;
+}
+.about-us hr{
+    width: 5%;
+    border: 1px solid rgba(58,173,230, 1);
+    margin-bottom: 80px;
+}
+.about-info p{
+    margin-top: 120px;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+
+
+/*End About Section*/
